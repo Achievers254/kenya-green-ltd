@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KENYA GREEN LTD</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #006400, #32CD32);
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #004d00;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .product {
+      background: white;
+      padding: 20px;
+      flex: 1;
+      min-width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #004d00;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KENYA GREEN LTD</h1>
+    <p>Powering Africa’s Sustainable Future</p>
+    <button onclick="alert('Explore Our Machines!')">Explore Our Machines</button>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Founded in Kenya, we are committed to driving Africa’s green revolution. 
+       Our mission is to provide sustainable machines that blend technology with tradition, 
+       empowering communities and protecting the environment.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Solar-Powered Farming Machines</h3>
+        <p>Efficient irrigation and harvesting solutions powered by the African sun.</p>
+      </div>
+      <div class="product">
+        <h3>Eco-Construction Equipment</h3>
+        <p>Green building tools designed for modern infrastructure.</p>
+      </div>
+      <div class="product">
+        <h3>Renewable Energy Systems</h3>
+        <p>Wind, hydro, and biofuel machines for a cleaner tomorrow.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact">
+    <h2>Impact & Testimonials</h2>
+    <blockquote>
+      “KENYA GREEN LTD transformed our farm with solar irrigation machines. 
+      We save costs and protect the environment.” — Farmer, Nakuru
+    </blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Nairobi, Kenya</p>
+    <p>📞 +254 797683275</p>
+    <p>📧 info@kenyagreenltd.com</p>
+    <p><strong>Partner with us today and join Africa’s green future.</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 KENYA GREEN LTD. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
