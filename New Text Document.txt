@@ -109,6 +109,30 @@
       We save costs and protect the environment.” — Farmer, Nakuru
     </blockquote>
   </section>
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    <strong>KENYA GREEN LTD</strong> is dedicated to powering Africa’s sustainable future. 
+    We provide eco-friendly machines for farming, construction, and renewable energy, blending 
+    innovation with tradition to empower communities and protect the environment.
+  </p>
+
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+    <div style="flex: 1; min-width: 300px;">
+      <img src="tractor.jpg" alt="Solar-powered tractor" style="width: 100%; border-radius: 8px;">
+      <p><strong>Solar-Powered Tractors:</strong> Designed for efficient, sustainable farming across Africa’s diverse landscapes.</p>
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+      <img src="pump.jpg" alt="Solar water pump system" style="width: 100%; border-radius: 8px;">
+      <p><strong>Water Pump Systems:</strong> Solar-driven irrigation pumps that ensure reliable water supply for agriculture.</p>
+    </div>
+  </div>
+
+  <p style="margin-top: 20px;">
+    Our machines help farmers increase productivity while protecting the environment. 
+    Join us in building a greener, more prosperous Africa.
+  </p>
+</section>
 
   <section id="contact">
     <h2>Contact Us</h2>
